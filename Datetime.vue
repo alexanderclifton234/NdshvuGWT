@@ -7,7 +7,6 @@ export default {
     props: {
         value: {
             type: String,
-            default: null,
         },
         /** Should only the date be displayed? */
         dateOnly: {
