@@ -5,7 +5,6 @@
 <script>
 export default {
     props: {
-        /** Value of date time */
         value: {
             type: String,
             default: null,
@@ -19,7 +18,6 @@ export default {
 
     computed: {
         displayText() {
-            if (this.dateOnly) {
                 return this.$root.date(this.value);
             } else {
                 return this.$root.datetime(this.value);
